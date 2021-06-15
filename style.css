@@ -388,7 +388,7 @@
         text-align: center;
       }
   
-      @media (min-width: 768px) {
+      @media (min-width: 1200px) {
         .hero__container {
           display: flex;
           flex-direction: row-reverse;
@@ -443,20 +443,7 @@
         .food__list__view__more {
           background: none;
         }
-      
-        .video__footage__container {
-          margin-bottom: 5rem;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-        }
-      
-        .video__footage {
-          margin-right: 2rem;
-        }
-        .video__footage__text {
-          margin-left: 2rem;
-        }
+
       
         .restaurant__list__container {
           display: flex;
@@ -511,7 +498,7 @@
         }
 
       
-      @media (min-width: 1200px) {
+      @media (min-width: 1400px) {
         .container {
           max-width: 1140px;
         }
@@ -532,13 +519,7 @@
           line-height: 1;
         }
       
-        .video__footage__container {
-          display: flex;
-          flex-direction: column;
-        }
-        .video__footage__text {
-          width: 60%;
-        }
+
       
         .food__menu__card__list {
           margin-top: 2rem;
